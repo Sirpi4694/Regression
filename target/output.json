@@ -1,0 +1,167 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 754100,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "user has to launch chrome and hit the FB url",
+            "match": {
+              "location": "LoginPageSteps.user_has_to_launch_chrome_and_hit_the_FB_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "To verify login functionality with valid username and invalid password in FB",
+        "description": "",
+        "id": "to-validate-the-login-page-in-fb;to-verify-login-functionality-with-valid-username-and-invalid-password-in-fb",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15200,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user has to enter the username and password",
+            "match": {
+              "location": "LoginPageSteps.user_has_to_enter_the_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "arul",
+                  "12345"
+                ]
+              },
+              {
+                "cells": [
+                  "sirpi",
+                  "12345"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8500,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "click the login button",
+            "match": {
+              "location": "LoginPageSteps.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9200,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user unable to enter the home page",
+            "match": {
+              "location": "LoginPageSteps.user_unable_to_enter_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 21000,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "user has to launch chrome and hit the FB url",
+            "match": {
+              "location": "LoginPageSteps.user_has_to_launch_chrome_and_hit_the_FB_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "To validate the forget password link",
+        "description": "",
+        "id": "to-validate-the-login-page-in-fb;to-validate-the-forget-password-link",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "user has to click the forget password link",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "user has to enter the mobile number",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "click the search button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "user has to navigate OTP page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login page in FB",
+    "description": "",
+    "id": "to-validate-the-login-page-in-fb",
+    "keyword": "Feature",
+    "uri": "src/test/java/Feature File/FB.feature",
+    "tags": []
+  }
+]
